@@ -1,0 +1,7 @@
+@extends('frontend.master')
+
+@section('title')
+    About Page
+@endsection
+
+

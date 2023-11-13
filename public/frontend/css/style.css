@@ -1,0 +1,349 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none !important;
+}
+#loader{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    /*background: #f0f6ff url("../images/freeloder.gif") no-repeat center;*/
+    background: #000 url("../images/freeloder.gif") no-repeat center;
+    z-index: 999;
+    transition: 16s ;
+}
+ul
+li{
+  list-style: none;
+}
+.btn {
+ padding: 8px 20px;
+  outline: none;
+ text-decoration: none;
+ font-size: 16px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s;
+ font-weight: 600;
+ border-radius: 6px;
+ border: 1px solid black;
+}
+/* nav start */
+
+.navbar{
+  background: #ffffff;
+    box-shadow: 0 0 3px rgba(60, 72, 88, 0.15);
+}
+
+.navbar-brand {
+
+  margin-right: -14rem;
+
+}
+
+ .navigation-menu > li {
+
+  margin: 0 10px;
+}
+.navigation-menu > li > a {
+  color: #3c4858;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 94%;
+}
+.dropdown-menu >li >a{
+  color: #3c4858;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 94%;
+}
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 333;
+}
+/* nav end */
+/* hero start */
+.custom{
+  margin-top: 10%;
+
+}
+
+.text-muted {
+  color: #8492a6 !important;
+}
+.title-heading .heading {
+  font-size: 256%;
+   letter-spacing: 1px;
+   font-weight: 500!important;
+}
+
+
+
+/* hero end */
+
+/* Notices start */
+.section-title .title {
+  letter-spacing: 0.5px;
+  font-size: 30px !important;
+}
+/* Notices End*/
+
+/* LARESR_NEWS start */
+.card{
+  position: relative;
+  transition: all 0.5s;
+
+}
+.card:hover{
+  transform: translateY(-20px);
+
+}
+.card:hover .author{
+  display: block;
+  background: linear-gradient(346deg, rgba(75,75,80,0.8939950980392157) 0%, rgba(2,2,9,0.4234068627450981) 0%);
+}
+.author{
+  position: absolute;
+  left: 9px;
+  top: 8px;
+  display: none;
+}
+.post-meta.d-flex.justify-content-between.mt-3 {
+  padding: 0% 8%;
+}
+.card-text.text-dark a{
+  font-size: 22px;
+  font-weight: 400;
+  color: #000;
+}
+
+.list-inline-item  :hover{
+
+  background-color: #ffffff;
+}
+.text-muted i:hover{
+
+  background-color: #ffffff;
+}
+/* LARESR_NEWS ENd */
+
+/* Events start */
+.events{
+  background-color: #f8f9fc;
+    margin-top: 5%;
+    height: 761px;
+    width: 100%;
+}
+/* Events end */
+
+
+/* Gallery start */
+
+
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+
+.custom-row{
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Gallery End */
+/* Latest Start */
+
+
+/* Latest End */
+
+/* footer start */
+
+.social-icon li a {
+  color: #3c4858;
+  border: 1px solid #3c4858;
+  text-align: center;
+  font-size: 10px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 15%;
+}
+.list-inline-item {
+  margin-right: 0px;
+  margin-bottom: 5px;
+}
+.list-inline-item:hover a {
+ background-color: #2f55d4;
+}
+.list-inline-item a:hover {
+ color: rgb(238, 245, 238);
+
+ transition: all 0.8s ease;
+}
+.text-muted {
+  color: #8492a6 !important;
+}
+.text-muted a{
+  color: #8492a6 !important;
+}
+.text-muted >a>i{
+  padding-right: 2%;
+}
+.footer-head{
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #8492a6;
+}
+/* right  end*/
+/* middel stat */
+
+/* middel End */
+/* footer End */
+
+
+
+
+
+/* contact page start */
+
+.form-icon{
+  position: relative;
+}
+.form-icon i{
+  position: absolute;
+  top: 13px;
+    left: 18px;
+}
+.icon i{
+  font-size: 24px;
+  color: #3c4858;
+}
+.title{
+  color: #3c4858;
+  font-size: 16px;
+}
+/* contact page end */
+
+
+
+
+
+
+
+
+
+
+/* .plus {
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	position: relative;
+	margin-left: 5px;
+	pointer-events: none;
+}
+
+.plus:before,
+.plus:after {
+	content: '';
+	position: absolute;
+	box-sizing: border-box;
+	left: 50%;
+	top: 50%;
+	background-color: black;
+	height: 1px;
+	width: 100%;
+	transform: translate(-50%, -50%);
+	transition: all 0.3s ease;
+
+}
+
+.nav-item:hover>.nav-link .plus:before,
+.nav-item:hover>.nav-link .plus:after {
+	background-color: black;
+}
+.plus:after {
+	transform: translate(-50%, -50%) rotate(-90deg);
+} */
+
+.dropdown-toggle::after {
+
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.navbar-nav>.nav-item>a .plus {
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	position: relative;
+	margin-left: 5px;
+	pointer-events: none;
+}
+
+.navbar-nav>.nav-item>a .plus:before,
+.navbar-nav>.nav-item>a .plus:after {
+	content: '';
+	position: absolute;
+	box-sizing: border-box;
+	left: 50%;
+	top: 50%;
+	background-color:black;
+	height: 1px;
+	width: 100%;
+	transform: translate(-50%, -50%);
+	transition: all 0.3s ease;
+}
+
+.navbar-nav>.menu-inav-item:hover>a .plus:before,
+.navbar-nav>.menu-inav-item:hover>a .plus:after {
+	background-color:black;
+}
+
+.navbar-nav>.nav-item:hover>a .plus::before {
+	transform: translate(-50%, -50%) rotate(-90deg);
+}
